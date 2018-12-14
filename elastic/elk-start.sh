@@ -1,3 +1,3 @@
-echo starting elk cluster in rg 'pyelasticoct'
+echo starting elk cluster in rg 'pyelasticnov'
 
-az vm start --ids $(az vm list --resource-group pyelasticoct --query "[].id" -o tsv)
+az vm start --ids $(az vm list --resource-group pyelasticnov --query "[].id" -o tsv)
